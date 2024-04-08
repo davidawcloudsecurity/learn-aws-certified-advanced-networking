@@ -1,3 +1,9 @@
+# Projects to sharpen your skill in networking
+
+- [ ] https://workshops.aws/categories/AWS%20Client%20VPN
+- [ ] https://catalog.workshops.aws/networking/en-US
+- [ ] https://dev.to/aws-builders/aws-advanced-networking-specialty-15-hands-on-exercises-for-certification-success-4eh7
+
 # learn-aws-certified-advanced-networking
 AWS Certified Advanced Networking - Specialty (ANS-C01) Exam Guide
 
