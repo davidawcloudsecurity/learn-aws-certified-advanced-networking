@@ -10,6 +10,8 @@
 # learn-aws-certified-advanced-networking
 AWS Certified Advanced Networking - Specialty (ANS-C01) Exam Guide
 
+-[ ] https://d1.awsstatic.com/training-and-certification/docs-advnetworking-spec/AWS-Certified-Advanced-Networking-Specialty_Exam-Guide.pdf
+
 Domain 1: Network Design
 Task Statement 1.1: Design a solution that incorporates edge network services to
 optimize user performance and traffic management for global architectures.
