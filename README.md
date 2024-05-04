@@ -4,6 +4,7 @@
 - [ ] https://catalog.workshops.aws/networking/en-US
 - [ ] https://dev.to/aws-builders/aws-advanced-networking-specialty-15-hands-on-exercises-for-certification-success-4eh7
 - [ ] https://collin-smith.medium.com/passing-the-aws-advanced-networking-certification-ans-c01-in-2023-69d10596afed
+- [ ] https://satin-sorrel-fbf.notion.site/AWS-Advanced-Networking-43b36925721a418f9d541cd2f42f1699
 
 # learn-aws-certified-advanced-networking
 AWS Certified Advanced Networking - Specialty (ANS-C01) Exam Guide
