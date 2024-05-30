@@ -7,6 +7,8 @@
 - [ ] https://collin-smith.medium.com/passing-the-aws-advanced-networking-certification-ans-c01-in-2023-69d10596afed
 - [ ] https://satin-sorrel-fbf.notion.site/AWS-Advanced-Networking-43b36925721a418f9d541cd2f42f1699
 
+## How to use prefix list to control traffic flow from transit gateway
+https://www.chiwaichan.co.nz/2022/05/28/work-around-for-cross-account-transit-gateway-security-group-reference/
 # learn-aws-certified-advanced-networking
 AWS Certified Advanced Networking - Specialty (ANS-C01) Exam Guide
 
