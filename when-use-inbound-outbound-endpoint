@@ -1,0 +1,34 @@
+## Inbound Endpoint
+Example: On-Premises to AWS DNS Resolution
+
+Scenario: You have on-premises servers that need to resolve domain names for resources hosted in your AWS VPCs.
+
+- [ ] Create an Inbound Endpoint: This endpoint allows DNS queries from on-premises servers to be resolved by the Route 53 Resolver in your VPC.
+- [ ] Configure On-Premises DNS Server: Update your on-premises DNS server to forward queries for specific domains (e.g., *.aws.internal) to the inbound endpoint's IP address.
+```bash
+Steps:
+
+Create an Amazon Route 53 Resolver inbound endpoint in the central VPC.
+Update your on-premises DNS server to forward queries to the IP address of the inbound endpoint.
+When an on-premises server needs to resolve a domain name for an AWS resource, it sends the query to the on-premises DNS server.
+The on-premises DNS server forwards the query to the inbound endpoint.
+The inbound endpoint resolves the query using the Route 53 Resolver and returns the answer to the on-premises DNS server, which then forwards it to the original requester.
+```
+## Outbound Endpoint
+Example: AWS to External (On-Premises) DNS Resolution
+
+Scenario: You have AWS resources that need to resolve domain names for resources hosted in your on-premises data centers.
+
+- [ ] Create an Outbound Endpoint: This endpoint allows DNS queries from AWS resources to be forwarded to external DNS servers (e.g., on-premises DNS servers).
+- [ ] Configure Route 53 Resolver Rules: Set up rules to forward queries for specific domains (e.g., *.onprem.internal) to the on-premises DNS servers via the outbound endpoint.
+```bash
+Steps:
+
+Create an Amazon Route 53 Resolver outbound endpoint in the central VPC.
+Create Route 53 Resolver rules to forward queries for the on-premises domain to the outbound endpoint.
+Configure the BIND DNS servers (or update DHCP options set in your VPC) to use the outbound endpoint for name resolution of specific domains.
+When an AWS resource needs to resolve a domain name for an on-premises resource, it sends the query to the BIND DNS server.
+The BIND DNS server forwards the query to the outbound endpoint.
+The outbound endpoint forwards the query to the on-premises DNS server.
+The on-premises DNS server resolves the query and returns the answer to the outbound endpoint, which then forwards it back to the AWS resource.
+```
