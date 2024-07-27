@@ -6,7 +6,7 @@
 - [ ] Setup Global Accelerator
 - [ ] Setup Elastic Beanstalk
 - [ ] Setup CloudFront Distribution
-- [ ] Setup up data in transit between load balancer, instance, and database in AWS like RDS.
+- [ ] Setup up data in transit between load balancer, instance, and database in AWS like RDS - https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html
 
 ## What is?
 - [X] Authoritative and non-authoritative domain - DNS server that owns and keeps official records of the domain vs DNS server that don't.
