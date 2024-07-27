@@ -5,4 +5,5 @@
 - [ ] How to get meta data 169
 
 ## What is?
-- [ ] Authoritative and non authoritative domain
+- [ ] Authoritative and non-authoritative domain
+- [ ] Link Aggregation and its relationship to DX/BGP
