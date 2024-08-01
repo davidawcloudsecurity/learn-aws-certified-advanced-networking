@@ -1,5 +1,7 @@
 # How not to fail ans-c01
 
+https://collin-smith.medium.com/passing-the-aws-advanced-networking-certification-ans-c01-in-2023-69d10596afed
+
 - [ ] Setup VPC with Ipv4 and ipv6
 - [ ] Setup DHCP and NTP
 - [ ] How to get meta data 169 MAC address, private IP address, public hostname, and other metadata of the EC2 instance.
