@@ -10,6 +10,7 @@
 - [ ] How to setup Amazon Route 53 Inbound and Outbound Resolver Endpoints between the pods using Azure?
 - [ ] Amazon WorkSpaces to use AWS Managed Microsoft AD to store and manage information for the WorkSpaces and users.
 - [ ] Configure app from eks to talk to sqs
+- [ ] Set the enableDnsHostNames attribute of the VPC to true and the enableDnsSupport attribute to true.
 
 ## What is?
 - [X] Authoritative and non-authoritative domain - DNS server that owns and keeps official records of the domain vs DNS server that don't.
