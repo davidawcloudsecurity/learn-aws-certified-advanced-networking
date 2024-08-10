@@ -15,6 +15,7 @@ https://collin-smith.medium.com/passing-the-aws-advanced-networking-certificatio
 - [ ] Set the enableDnsHostNames attribute of the VPC to true and the enableDnsSupport attribute to true.
 - [ ] what information you need to setup direct connect/public/private vif
 - [ ] Cloudfront distribution and origin
+- [ ] Who or what uses port 4500, 500 and 50
 
 ## What is?
 - [X] Authoritative and non-authoritative domain - DNS server that owns and keeps official records of the domain vs DNS server that don't.
