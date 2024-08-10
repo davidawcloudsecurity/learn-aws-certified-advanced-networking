@@ -16,6 +16,7 @@ https://collin-smith.medium.com/passing-the-aws-advanced-networking-certificatio
 - [ ] what information you need to setup direct connect/public/private vif
 - [ ] Cloudfront distribution and origin
 - [ ] Who or what uses port 4500, 500 and 50
+- [ ] How to increase private ip address with secondary and new subnets
 
 ## What is?
 - [X] Authoritative and non-authoritative domain - DNS server that owns and keeps official records of the domain vs DNS server that don't.
